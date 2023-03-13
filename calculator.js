@@ -42,7 +42,7 @@ const operate = (operator, n1, n2) => {
 // document.getElementById("scoreboard");
 // winnerText.textContent = "Computer wins!";
 const button0 = document.getElementById("button0");
-button1.addEventListener("click", function () {
+button0.addEventListener("click", function () {
     console.log(0);
     if (operator === '') {
         number1 = 0;
