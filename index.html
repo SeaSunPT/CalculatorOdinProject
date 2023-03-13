@@ -6,32 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <div className="app">
-        <div id="numbers-section">
-            <button id="button0">0</button>
-            <button id="button1">1</button>
-            <button id="button2">2</button>
-            <button id="button3">3</button>
-            <button id="button4">4</button>
-            <button id="button5">5</button>
-            <button id="button6">6</button>
-            <button id="button7">7</button>
-            <button id="button8">8</button>
-            <button id="button9">9</button>
+    <div class="app">
+        <div id="numbers-section" class="numbers-section">
+            <button id="button7" class="number-buttons">7</button>
+            <button id="button8" class="number-buttons">8</button>
+            <button id="button9" class="number-buttons">9</button>
+            <button id="button4" class="number-buttons">4</button>
+            <button id="button5" class="number-buttons">5</button>
+            <button id="button6" class="number-buttons">6</button>
+            <button id="button1" class="number-buttons">1</button>
+            <button id="button2" class="number-buttons">2</button>
+            <button id="button3" class="number-buttons">3</button>
+            <button id="button0" class="number-0">0</button>
         </div>
-        <div id="operator-section">
-            <button id="buttonAdd">add</button>
-            <button id="buttonSub">subtract</button>
-            <button id="buttonMultiply">multiply</button>
-            <button id="buttonDivide">divide</button>
-            <button id="buttonEquals">=</button>
+        <div id="operator-section" class="operator-section">
+            <button id="buttonAdd" class="operator-buttons">+</button>
+            <button id="buttonSub" class="operator-buttons">-</button>
+            <button id="buttonMultiply" class="operator-buttons">x</button>
+            <button id="buttonDivide" class="operator-buttons">/</button>
+            <button id="buttonEquals" class="operator-buttons">=</button>
         </div>
-        <div id="result">dummyResult</div>
-        <button id="clear">clear</button>
+        <div class="result-section">
+            <div id="result" class="result">0</div>
+            <button id="clear" class="clear">clear</button>
+        </div>
     </div>
     <script src="calculator.js"></script>
 </body>

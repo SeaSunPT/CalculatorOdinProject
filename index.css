@@ -1,0 +1,71 @@
+.app {
+    width: 300px;
+    height: 450px;
+    background-color: bisque;
+    border-color: black;
+    border-style: solid;
+    padding: 8px;
+}
+
+.number-buttons {
+    font-size: large;
+    font-weight: bolder;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+}
+
+.number-0 {
+    font-size: large;
+    font-weight: bolder;
+    width: 128px;
+    height: 60px;
+    margin: 2px;
+}
+
+.numbers-section {
+    width: 200px;
+    height: 350px;
+    float: left;
+}
+
+.operator-section {
+    width: 80px;
+    height: 350px;
+    float: right;
+}
+
+.operator-buttons {
+    font-size: large;
+    font-weight: bolder;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+}
+
+.result-section {
+    height: 60px;
+    width: 280px;
+}
+
+.result {
+    width: 200px;
+    height: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: aliceblue;
+    text-align: end;
+    padding-right: 10px;
+    font-size: large;
+    font-weight: bolder;
+    float: left;
+}
+
+.clear {
+    font-size: large;
+    font-weight: bolder;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    float: right;
+}
